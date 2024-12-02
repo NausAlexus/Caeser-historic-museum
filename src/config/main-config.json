@@ -4,5 +4,70 @@
             "explore-text": "Explore the world of",
             "explore-title": "Classical Sculptures."
         }
+    ],
+    "gallery":[
+        {
+            "gallery-title": "Galleries at the Acropolis Museum",
+            "gallery-content":{
+                "block-1":{
+                    "img":"./img/gallery/Acropolis-Museum-1.avif",
+                    "title":"The Gallery of the Slopes of the Acropolis",
+                    "location":"Ground floor",
+                    "artefacts":"Offerings to the gods, ancient pottery, reliefs, and figurines",
+                    "text":"This gallery immerses you in the daily life of ancient Athenians, showcasing objects found in the various buildings that were once located on the slopes of the Acropolis. The artifacts here reflect the religious and public aspects of their life."
+                },
+                "block-2":{
+                    "img":"",
+                    "title":"The Archaic Aropolis Gallery",
+                    "location":"First floor",
+                    "artefacts":"The Moschophoros (Calf-bearer) and the Kore 675",
+                    "text":"This gallery is home to the early masterpieces of ancient Greek art from the 7th century BCE to the early 5th century BCE, before the Persian invasion. You’ll find statues and offerings like korai (female statues), kouroi (male statues), and horsemen. They highlight the development of freestanding sculpture and show the evolution of dedications (offerings)."
+                },
+                "block-3":{
+                    "img":"",
+                    "title":"The early history of the Acropolis",
+                    "location":"First floor",
+                    "artefacts":"Early Mycenaean pottery, tools, figurines, and remnants of the formidable walls ",
+                    "text":"This gallery uncovers the layers of history that transformed the Acropolis from a typical settlement into the epitome of Athenian power and religious devotion. Through a carefully curated selection of artefacts, visitors are taken on a journey through time, exploring how this sacred hill evolved to become the heart of ancient Athens."
+                },
+                "block-4":{
+                    "img":"",
+                    "title":"Other Monuments of the Periklean Building Programme",
+                    "location":"First floor",
+                    "artefacts":"Karyatids, friezes from the Erechtheion, parts of the Propylaia’s ceiling and columns, friezes and segments of parapets from the Temple of Athena Nike",
+                    "text":"This gallery pays homage to the ambitious building programme initiated by Pericles, the ancient Greek politician. It was under him that the Acropolis’ most iconic structures were constructed between 461 BCE and 429 BCE. The artifacts here showcase the period’s architectural grandeur, and reflect the democratic ideals and cultural flourishing of Athens."
+                },
+                "block-5":{
+                    "img":"",
+                    "title":"From the 5th century BC to the end of Antiquity",
+                    "location":"First floor",
+                    "artefacts":"Findings from the Sanctuary of Artemis Brauronia, dedications, reliefs, Roman coinage",
+                    "text":"This gallery celebrates the height of artistic and architectural achievement at the Acropolis during its golden age. It chronicles the evolution of Athens’ art and architecture, showcasing its cultural dominance. You’ll see artifacts from the Sanctuary of Artemis Brauronia, fragments of figurines and reliefs, and Roman-era gold and bronze coins."
+                },
+                "block-6":{
+                    "img":"",
+                    "title":"The Parthenon Gallery",
+                    "location":"Third floor",
+                    "artefacts":"Fragments of the Parthenon’s frieze, detailed metopes, and pediments",
+                    "text":"Centred around the Parthenon frieze, this gallery offers a comprehensive view of the band of rich decorative sculptures that once adorned the temple of Athena at the Acropolis. You can appreciate the friezes in their historical context through an architectural layout that mirrors the Parthenon’s dimensions."
+                },
+                "block-7":{
+                    "img":"",
+                    "title":"The Archaeological Excavation",
+                    "location":"Basement",
+                    "artefacts":"Fragments of ancient dwellings and architectural pieces",
+                    "text":"Set beneath the museum’s modern structure, this gallery is a testament to the living history underpinning the Acropolis Museum itself. The atrium’s glass floor offers a literal window into the past, where visitors can peer into the depths of Athenian history. Watch as archaeologists excavate Ancient Greek buildings, including houses and workshops, and uncover the mysteries of this ancient neighbourhood."
+                },
+                "block-8":{
+                    "img":"",
+                    "title":"Excavation Museum",
+                    "location":"Level 1/Basement",
+                    "artefacts":"Everyday utensils, pottery, and other daily use items",
+                    "text":"In June 2024, on its 15th anniversary, the Acropolis Museum opened a new permanent exhibition area. Located at Level 1/the basement, adjacent to the archaeological excavation site, this new exhibit displays more than 1,100 artifacts unearthed from the excavation site. These items give you a fascinating glimpse of what daily life was like in the vicinity of the Acropolis in ancient Athens."
+                }
+                
+            }
+
+        }
     ]
 }
