@@ -1,16 +1,15 @@
 .main {
     width: 1460px;
-    height: 824px;
     margin: 0 auto;
 }
 
 /* Explore Block__________________________________________ */
 .explore-block {
     margin-top: 190px;
+    height: 824px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
 }
 .text {
     color: var(--text-color);
@@ -211,10 +210,13 @@
 
 /* Адаптируем под разрешение от 425 до 768px */
 @media (max-width: 768px) {
+    .explore-block {
+        height: 600px;
+    }
+
     .main {
         width: 100%;
         padding: 0 10px;
-        height: 600px;
     }
     .explore-text {
         font-size: 20px;
@@ -258,6 +260,9 @@
 
 /* Адаптируем под разрешение до 425px */
 @media (max-width: 425px) {
+    .explore-block {
+        height: 380px;
+    }
     .main {
         height: 380px;
     }

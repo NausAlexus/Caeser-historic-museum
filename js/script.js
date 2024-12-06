@@ -77,7 +77,21 @@ async function loadHomeData() {
     }
 }
 
-loadHomeData();
+// // Отображение данных Footer_____________________________
+// async function loadFooterData() {
+//     try {
+//         const response = await fetch('./config/footer-config.json');
+//         const data = await response.json();
+
+//         const footerTextHeader = document.querySelector('.explore-text');
+
+//         exploreTextElement.textContent = data.explore[0]['explore-text'];
+//     } catch (error) {
+//         console.error('Error loading data:', error);
+//     }
+// }
+
+// loadFooterData();
 
 // Отображение данных Info___________________________________
 document.addEventListener('DOMContentLoaded', () => {
@@ -192,6 +206,39 @@ document.addEventListener('DOMContentLoaded', () => {
                     arrowImage.style.transform = isVisible ? "rotate(0deg)" : "rotate(90deg)";
                 });
             });
+        })
+        .catch(error => console.error('Error loading the JSON:', error));
+});
+
+// Отображение данных Footer___________________________________
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('./config/footer-config.json')
+        .then(response => response.json())
+        .then(data => {
+
+            const socialLinksContainer = document.querySelector('.social-links');
+            
+            if (data.links && data.links.length > 0) {
+                data.links.forEach(link => {
+                    // Создаем элемент <a>
+                    const anchor = document.createElement('a');
+                    anchor.href = link.path;
+                    anchor.target = "_blank";
+
+                    // Создаем элемент <img> для иконки
+                    const img = document.createElement('img');
+                    img.src = link.src;
+                    img.alt = `${link.name} Icon`;
+
+                    // Добавляем изображение в ссылку
+                    anchor.appendChild(img);
+
+                    // Добавляем ссылку в контейнер
+                    socialLinksContainer.appendChild(anchor);
+                });
+            } else {
+                console.warn('No links found in JSON data.');
+            }
         })
         .catch(error => console.error('Error loading the JSON:', error));
 });

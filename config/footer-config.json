@@ -4,29 +4,32 @@
             "title": "Opening hours",
             "Daily": "Daily: 10.00–17.00 (Fridays: 20.30)",
             "Last entry": "Last entry: 16.00 (Fridays: 19.30)",
-            "Work By": "Work By BelHard © 2024"
+            "Work By": "Work By",
+            "Company": "BelHard",
+            "Eyear": "© 2024"
+
         }
     ],
     "links": [
         {
             "name": "LinkedIn",
-            "path": "#"
+            "path": "#",
+            "src": "img/footer/li.svg"
         },
         {
             "name": "Meta",
-            "path": "#"
+            "path": "#",
+            "src": "img/footer/meta.svg"
         },
         {
             "name": "YouTube",
-            "path": "#"
-        },
-        {
-            "name": "X",
-            "path": "#"
+            "path": "#",
+            "src": "img/footer/youtube.svg"
         },
         {
             "name": "Instagram",
-            "path": "#"
+            "path": "#",
+            "src": "img/footer/inst.svg"
         }
     ]
 }
