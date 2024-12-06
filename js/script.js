@@ -77,21 +77,34 @@ async function loadHomeData() {
     }
 }
 
-// // Отображение данных Footer_____________________________
-// async function loadFooterData() {
-//     try {
-//         const response = await fetch('./config/footer-config.json');
-//         const data = await response.json();
+loadHomeData();
 
-//         const footerTextHeader = document.querySelector('.explore-text');
+// Отображение данных Footer_____________________________
+async function loadFooterData() {
+    try {
+        const response = await fetch('./config/footer-config.json');
+        const data = await response.json();
 
-//         exploreTextElement.textContent = data.explore[0]['explore-text'];
-//     } catch (error) {
-//         console.error('Error loading data:', error);
-//     }
-// }
+        const footerText = document.querySelector('.text-footer');
+        const footerDetailsDaily = document.querySelector('.text-details-daily');
+        const footerDetailsLast = document.querySelector('.text-details-last');
+        const footerCenterText = document.querySelector('.footer-center-text');
+        const footerGold = document.querySelector('.gold');
+        const footerCircle = document.querySelector('.circle');
 
-// loadFooterData();
+        footerText.textContent = data.content[0]['title'];
+        footerDetailsDaily.textContent = data.content[0]['Daily'];
+        footerDetailsLast.textContent = data.content[0]['Last entry'];
+        footerCenterText.textContent = data.content[0]['Work By'];
+        footerGold.textContent = data.content[0]['Company'];
+        footerCircle.textContent = data.content[0]['Eyear'];
+
+    } catch (error) {
+        console.error('Error loading data:', error);
+    }
+}
+
+loadFooterData();
 
 // Отображение данных Info___________________________________
 document.addEventListener('DOMContentLoaded', () => {

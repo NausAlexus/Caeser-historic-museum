@@ -34,14 +34,12 @@
 .text-details {
     color: var(--text-color);
     font-size: 14px;
-    margin-top: 7px;
 }
 
 .social-links {
     display: flex;
     align-items: center;
 }
-
 
 .social-links a {
     transition: opacity 0.3s ease;
@@ -58,13 +56,9 @@
 .footer-center {
     text-align: center;
     margin-bottom: 25px;
+    font-size: 15px;
 }
 
 .footer-center .gold {
     color: var(--title-color);
-}
-
-.footer-center .circle {
-    font-size: 20px; 
-    vertical-align: middle; 
 }
