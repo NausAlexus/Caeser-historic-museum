@@ -16,7 +16,6 @@
 .footer-left {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     margin-top: 100px;
 }
 
@@ -61,4 +60,55 @@
 
 .footer-center .gold {
     color: var(--title-color);
+}
+
+/* Адаптируем под разрешение от 1400 до 1600px */
+@media (max-width: 1600px) {
+    .footer {
+        width: 1380px;
+    }
+}
+
+/* Адаптируем под разрешение от 1024 до 1400px */
+@media (max-width: 1400px) {
+    .footer {
+        width: 1000px;
+    }
+}
+
+/* Адаптируем под разрешение от 768 до 1024px */
+@media (max-width: 1024px) {
+    .footer {
+        width: 760px;
+    }
+}
+
+/* Адаптируем под разрешение от 425 до 768px */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        display: flex;
+        width: 420px;
+    }
+    .footer-section {
+        width: 100%;
+    }
+    .footer-left {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .text-details-last {
+        margin-bottom: 30px;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Адаптируем под разрешение до 425px */
+@media (max-width: 425px) {
+    .footer {
+        width: 100%;
+        padding: 0 10px;
+    }
 }
