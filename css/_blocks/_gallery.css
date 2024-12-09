@@ -1,6 +1,8 @@
 .gallery-block {
-    margin-top: 190px;
+    margin: 190px 15px;
+
     height: 100%;
+
 
     color: var(--text-color);
     font-size: 17px;
@@ -47,5 +49,29 @@
     }
     100% {
         border-color: var(--border-color);
+    }
+}
+
+
+@media (max-width:768px) {
+    .gallery-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .gallery-title{
+        font-size: 42px;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .gallery-block{
+        font-size: 14px;
+    }
+    .gallery-title{
+        font-size: 32px;
+    }
+    .gallery-content-title{
+        font-size: 20px;
     }
 }
