@@ -53,7 +53,7 @@ body::-webkit-scrollbar-track {
     font-size: 24px;
     color: var(--color-btn);
 }
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .scroll-to-top:hover {
         background-color: var(--background-btn-hover);
     }

@@ -213,7 +213,6 @@
     .explore-block {
         height: 600px;
     }
-
     .main {
         width: 100%;
         padding: 0 10px;
@@ -226,19 +225,19 @@
     }
     .explore-text-sculpture-1 {
         right: 75px;
-        top: 315px;
+        top: 225px;
     }
     .explore-text-sculpture-2 {
         left: 40px;
-        top: 485px;
+        top: 395px;
     }
     .explore-text-sculpture-3 {
         left: 5px;
-        top: 620px;
+        top: 530px;
     }
     .explore-text-sculpture-4 {
         right: 15px;
-        top: 630px;
+        top: 540px;
     }
     .explore-text-sculpture-1-text {
         font-size: 14px;
