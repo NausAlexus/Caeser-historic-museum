@@ -67,6 +67,12 @@ $(document).ready(function() {
         
                         galleryContainer.appendChild(galleryContent);
                     });
+                    if (url.includes('gallery.html')) {
+                        $('.nav-items').hide(); // Скрываем меню навигации
+                        $('header').css("justify-content", "center")
+                    } else {
+                        $('.nav-items').show(); // Показываем меню навигации
+                    }
                 })
                 .catch((error) => console.error("Error loading the JSON:", error));
 
