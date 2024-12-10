@@ -5,7 +5,7 @@
 
 /* Explore Block__________________________________________ */
 .explore-block {
-    margin-top: 190px;
+    margin-top: 100px;
     height: 824px;
     display: flex;
     flex-direction: column;
@@ -82,25 +82,25 @@
 }
 .explore-text-sculpture-1 {
     position: absolute;
-    top: 420px;
+    top: 330px;
     right: 385px;
     opacity: 0;
 }
 .explore-text-sculpture-2 {
     position: absolute;
-    top: 500px;
+    top: 410px;
     left: 440px;
     opacity: 0;
 }
 .explore-text-sculpture-3 {
     position: absolute;
-    top: 820px;
+    top: 730px;
     left: 260px;
     opacity: 0;
 }
 .explore-text-sculpture-4 {
     position: absolute;
-    top: 920px;
+    top: 830px;
     right: 280px;
     opacity: 0;
 }
@@ -268,19 +268,19 @@
     }
     .explore-text-sculpture-1 {
         right: 10px;
-        top: 270px;
+        top: 180px;
     }
     .explore-text-sculpture-2 {
         left: 20px;
-        top: 320px;
+        top: 230px;
     }
     .explore-text-sculpture-3 {
         left: 10px;
-        top: 405px;
+        top: 315px;
     }
     .explore-text-sculpture-4 {
         right: 0px;
-        top: 460px;
+        top: 370px;
     }
     .explore-text-sculpture-1-text {
         font-size: 10px;
