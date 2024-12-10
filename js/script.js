@@ -273,3 +273,35 @@ scrollToTopButton.onclick = () => {
         behavior: 'smooth'
     });
 };
+
+// Отображение данных Header___________________________________
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('./config/header-config.json')
+        .then(response => response.json())
+        .then(data => {
+
+            const navItemsContainer = document.querySelector('.nav-items');
+            
+            if (data.nav && data.nav.length > 0) {
+                data.nav.forEach((link, index) => {
+                    //Создаем элемент <li>
+                    const navItem = document.createElement('li');
+                    navItem.classList.add('nav-item');
+
+                    // Создаем элемент <a>
+                    const navLink = document.createElement('a');
+                    navLink.textContent = link.name;
+                    navLink.href = link.path;
+                    navLink.classList.add('text');
+                    navLink.classList.add('nav-link');
+                    if()
+
+                    navItemsContainer.appendChild(navItem);
+                    navItem.appendChild(navLink);
+                });
+            } else {
+                console.warn('No links found in JSON data.');
+            }
+        })
+        .catch(error => console.error('Error loading the JSON:', error));
+});
