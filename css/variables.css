@@ -4,4 +4,7 @@
     --title-color: #B5964D;
     --border-color: #D9D9D9;
     --border-color2: #B5964D;
+    --background-btn: rgba(255, 255, 255, 0.645);
+    --background-btn-hover: rgba(255, 255, 255, 1);
+    --color-btn: #333;
 }

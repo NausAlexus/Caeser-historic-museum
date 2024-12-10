@@ -36,3 +36,29 @@ body::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #3e3e3e;
 }
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--background-btn);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    display: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.scroll-to-top p {
+    font-size: 24px;
+    color: var(--color-btn);
+}
+@media (min-width: 769px) {
+    .scroll-to-top:hover {
+        background-color: var(--background-btn-hover);
+    }
+}
+.hidden {
+    display: none;
+}
