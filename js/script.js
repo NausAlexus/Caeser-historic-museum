@@ -255,3 +255,21 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading the JSON:', error));
 });
+
+const scrollToTopButton = document.getElementById('scrollToTop');
+
+window.onscroll = () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        scrollToTopButton.style.display = "block";
+    } else {
+        scrollToTopButton.style.display = "none";
+    }
+};
+
+// Обрабатываем клик по кнопке
+scrollToTopButton.onclick = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
