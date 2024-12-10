@@ -294,7 +294,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     navLink.href = link.path;
                     navLink.classList.add('text');
                     navLink.classList.add('nav-link');
-                    if()
+                    if(index === 0){
+                        navLink.classList.add('gallery');
+                    }
 
                     navItemsContainer.appendChild(navItem);
                     navItem.appendChild(navLink);

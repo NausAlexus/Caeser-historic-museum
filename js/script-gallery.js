@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.gallery').on('click', function(e) {
+    $('.nav-items').on('click', '.gallery', function(e) {
         e.preventDefault();
 
         let url = $(this).attr('href'); // Получаем URL из атрибута href ссылки
